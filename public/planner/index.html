@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfect Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Welcome Page -->
+  <section id="welcome">
+    <h1>PLAN YOUR DAY THROUGH US</h1>
+    <button id="planButton">Start Planning</button>
+  </section>
+
+  <!-- Morning Page -->
+  <section id="morning">
+    <h2>Morning Routine</h2>
+    <p>What is the first thing you want to do after waking up?</p>
+    <div class="options">
+      <label><input type="radio" name="morning" value="Freshen up and brush your teeth" /> Freshen up and brush your teeth</label>
+      <label><input type="radio" name="morning" value="Drink water and stretch" /> Drink water and stretch</label>
+      <label><input type="radio" name="morning" value="Go for a morning walk or run" /> Go for a morning walk or run</label>
+      <label><input type="radio" name="morning" value="Have a healthy breakfast" /> Have a healthy breakfast</label>
+    </div>
+    <div>
+      <button id="morningprevious">Previous</button>
+      <button id="morningcontinue">Continue</button>
+    </div>
+  </section>
+
+  <!-- Afternoon Page -->
+  <section id="afternoon">
+    <h2>Afternoon Routine</h2>
+    <p>How do you want to spend your afternoon?</p>
+    <div class="options">
+      <label><input type="radio" name="afternoon" value="Focus on work or study" /> Focus on work or study</label>
+      <label><input type="radio" name="afternoon" value="Have lunch and take a short break" /> Have lunch and take a short break</label>
+      <label><input type="radio" name="afternoon" value="Attend meetings or classes" /> Attend meetings or classes</label>
+      <label><input type="radio" name="afternoon" value="Run errands or shopping" /> Run errands or shopping</label>
+    </div>
+    <div>
+      <button id="afternoonprevious">Previous</button>
+      <button id="afternooncontinue">Continue</button>
+    </div>
+  </section>
+
+  <!-- Evening Page -->
+  <section id="evening">
+    <h2>Evening Routine</h2>
+    <p>What would you like to do in the evening?</p>
+    <div class="options">
+      <label><input type="radio" name="evening" value="Exercise or hit the gym" /> Exercise or hit the gym</label>
+      <label><input type="radio" name="evening" value="Spend time with family or friends" /> Spend time with family or friends</label>
+      <label><input type="radio" name="evening" value="Work on a hobby" /> Work on a hobby</label>
+      <label><input type="radio" name="evening" value="Relax and watch a show" /> Relax and watch a show</label>
+    </div>
+    <div>
+      <button id="eveningprevious">Previous</button>
+      <button id="eveningcontinue">Continue</button>
+    </div>
+  </section>
+
+  <!-- Night Page -->
+  <section id="night">
+    <h2>Night Routine</h2>
+    <p>How do you want to wind down before bed?</p>
+    <div class="options">
+      <label><input type="radio" name="night" value="Have a light dinner" /> Have a light dinner</label>
+      <label><input type="radio" name="night" value="Read a book" /> Read a book</label>
+      <label><input type="radio" name="night" value="Plan for tomorrow" /> Plan for tomorrow</label>
+      <label><input type="radio" name="night" value="Meditate and sleep early" /> Meditate and sleep early</label>
+    </div>
+    <div>
+      <button id="nightprevious">Previous</button>
+      <button id="finishButton">Finish</button>
+    </div>
+  </section>
+
+  <!-- End Page -->
+  <section id="end">
+    <h2>Your day is planned!</h2>
+    <p>Enjoy your day.</p>
+    <button id="restartButton">Start Again</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
